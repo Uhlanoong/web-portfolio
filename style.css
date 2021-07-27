@@ -1,0 +1,132 @@
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* navbar */
+nav {
+  height: 80px;
+}
+.nav-link {
+  color: #506690;
+}
+.navbar {
+  transition: all 0.2s ease-in-out;
+  transition-property: color;
+  z-index: 1030;
+}
+.bg-white {
+  background-color: #fff !important;
+}
+/* Style the search field */
+form.form-list input[type="text"] {
+  padding: 5px;
+  font-size: 15px;
+  border: 1px solid grey;
+  float: left;
+  width: 50%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.form-list button {
+  float: left;
+  width: 20%;
+  padding: 5px;
+  background: #2196f3;
+  color: white;
+  font-size: 15px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.form-list button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.form-list::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+}
+/* solution */
+/* .solution {
+  background-color: skyblue;
+} */
+.wel {
+  color: #2b468b;
+}
+.desc {
+  padding-top: 15%;
+}
+.desc h1 {
+  font-weight: lighter;
+  font-size: 3rem;
+}
+.desc i {
+  padding-left: 10px;
+}
+.morning {
+  padding-top: 10%;
+}
+.para {
+  color: #869ab8;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 500;
+  text-align: justify;
+}
+.btn {
+  padding: 10px 20px;
+  font-weight: 500;
+}
+#solution img {
+  border-radius: 50px;
+}
+
+.card img {
+  border-radius: 20px;
+}
+.box-shadow {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+/* ends */
+
+/* contact */
+.contact-section {
+  background-color: steelblue;
+  height: 90vh;
+}
+.contact-section a {
+  color: white;
+  text-decoration: none;
+}
+
+/* footer */
+footer {
+  background-color: #f7f7fc;
+}
+footer a {
+  color: black;
+}
+footer ul li a {
+  padding-left: 10px;
+}
